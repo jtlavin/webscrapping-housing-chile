@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "webscrapping-housing-chile"
+version = "0.1.0"
+description = ""
+authors = ["José Tomás Lavín León <jlavinleon@alumni.unav.es>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.3"
+urllib3 = "^1.26.14"
+boto3 = "^1.26.54"
+beautifulsoup4 = "^4.11.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
