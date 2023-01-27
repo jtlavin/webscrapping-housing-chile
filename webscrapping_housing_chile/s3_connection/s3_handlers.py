@@ -5,8 +5,8 @@ import pandas as pd
 def s3_connection():
     s3 = boto3.client(
         's3',
-        aws_access_key_id='AKIAX6JMGTCLISSPK67G',
-        aws_secret_access_key='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',
+        aws_access_key_id='XXXXX',
+        aws_secret_access_key='XXXXX',
     )
     return s3
 
